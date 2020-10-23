@@ -20,6 +20,14 @@
 		0BBE1C78253CCBDA0022D4C7 /* Optinals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C77253CCBDA0022D4C7 /* Optinals.swift */; };
 		0BBE1C7A253CCCF20022D4C7 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C79253CCCF20022D4C7 /* ErrorHandling.swift */; };
 		0BBE1C7C253CCD8C0022D4C7 /* AssertionsAndPreconditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C7B253CCD8C0022D4C7 /* AssertionsAndPreconditions.swift */; };
+		0BBE1C8A253DD9640022D4C7 /* AssignmentOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C89253DD9640022D4C7 /* AssignmentOperator.swift */; };
+		0BBE1C8C253DD9ED0022D4C7 /* ArithmeticOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C8B253DD9ED0022D4C7 /* ArithmeticOperators.swift */; };
+		0BBE1C90253DDA5C0022D4C7 /* CompoundAssignmentOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C8F253DDA5C0022D4C7 /* CompoundAssignmentOperators.swift */; };
+		0BBE1C92253DDA830022D4C7 /* ComparisonOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C91253DDA830022D4C7 /* ComparisonOperators.swift */; };
+		0BBE1C94253DDAC80022D4C7 /* TernaryConditionalOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C93253DDAC80022D4C7 /* TernaryConditionalOperator.swift */; };
+		0BBE1C96253DDAEC0022D4C7 /* NilCoalecsingOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C95253DDAEC0022D4C7 /* NilCoalecsingOperator.swift */; };
+		0BBE1C98253DDB090022D4C7 /* RangeOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C97253DDB090022D4C7 /* RangeOperators.swift */; };
+		0BBE1C9A253DDB670022D4C7 /* LogicalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE1C99253DDB670022D4C7 /* LogicalOperators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,10 +47,27 @@
 		0BBE1C77253CCBDA0022D4C7 /* Optinals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optinals.swift; sourceTree = "<group>"; };
 		0BBE1C79253CCCF20022D4C7 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 		0BBE1C7B253CCD8C0022D4C7 /* AssertionsAndPreconditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionsAndPreconditions.swift; sourceTree = "<group>"; };
+		0BBE1C81253DD89D0022D4C7 /* BasicOperators.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicOperators.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBE1C85253DD89D0022D4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBE1C89253DD9640022D4C7 /* AssignmentOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentOperator.swift; sourceTree = "<group>"; };
+		0BBE1C8B253DD9ED0022D4C7 /* ArithmeticOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperators.swift; sourceTree = "<group>"; };
+		0BBE1C8F253DDA5C0022D4C7 /* CompoundAssignmentOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundAssignmentOperators.swift; sourceTree = "<group>"; };
+		0BBE1C91253DDA830022D4C7 /* ComparisonOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonOperators.swift; sourceTree = "<group>"; };
+		0BBE1C93253DDAC80022D4C7 /* TernaryConditionalOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryConditionalOperator.swift; sourceTree = "<group>"; };
+		0BBE1C95253DDAEC0022D4C7 /* NilCoalecsingOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NilCoalecsingOperator.swift; sourceTree = "<group>"; };
+		0BBE1C97253DDB090022D4C7 /* RangeOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperators.swift; sourceTree = "<group>"; };
+		0BBE1C99253DDB670022D4C7 /* LogicalOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicalOperators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0BBE1C56253872DF0022D4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBE1C7E253DD89D0022D4C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				0BBE1C59253872DF0022D4C7 /* Basics.xctest */,
+				0BBE1C81253DD89D0022D4C7 /* BasicOperators.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				0BBE1C5A253872DF0022D4C7 /* Basics */,
+				0BBE1C82253DD89D0022D4C7 /* BasicOperators */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -106,6 +133,22 @@
 			path = Basics;
 			sourceTree = "<group>";
 		};
+		0BBE1C82253DD89D0022D4C7 /* BasicOperators */ = {
+			isa = PBXGroup;
+			children = (
+				0BBE1C89253DD9640022D4C7 /* AssignmentOperator.swift */,
+				0BBE1C8B253DD9ED0022D4C7 /* ArithmeticOperators.swift */,
+				0BBE1C8F253DDA5C0022D4C7 /* CompoundAssignmentOperators.swift */,
+				0BBE1C91253DDA830022D4C7 /* ComparisonOperators.swift */,
+				0BBE1C93253DDAC80022D4C7 /* TernaryConditionalOperator.swift */,
+				0BBE1C95253DDAEC0022D4C7 /* NilCoalecsingOperator.swift */,
+				0BBE1C97253DDB090022D4C7 /* RangeOperators.swift */,
+				0BBE1C99253DDB670022D4C7 /* LogicalOperators.swift */,
+				0BBE1C85253DD89D0022D4C7 /* Info.plist */,
+			);
+			path = BasicOperators;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +169,23 @@
 			productReference = 0BBE1C59253872DF0022D4C7 /* Basics.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0BBE1C80253DD89D0022D4C7 /* BasicOperators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BBE1C88253DD89D0022D4C7 /* Build configuration list for PBXNativeTarget "BasicOperators" */;
+			buildPhases = (
+				0BBE1C7D253DD89D0022D4C7 /* Sources */,
+				0BBE1C7E253DD89D0022D4C7 /* Frameworks */,
+				0BBE1C7F253DD89D0022D4C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicOperators;
+			productName = BasicOperators;
+			productReference = 0BBE1C81253DD89D0022D4C7 /* BasicOperators.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,6 +199,9 @@
 					0BBE1C58253872DF0022D4C7 = {
 						CreatedOnToolsVersion = 11.7;
 						LastSwiftMigration = 1170;
+					};
+					0BBE1C80253DD89D0022D4C7 = {
+						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
@@ -156,12 +219,20 @@
 			projectRoot = "";
 			targets = (
 				0BBE1C58253872DF0022D4C7 /* Basics */,
+				0BBE1C80253DD89D0022D4C7 /* BasicOperators */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0BBE1C57253872DF0022D4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBE1C7F253DD89D0022D4C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,6 +259,21 @@
 				0BBE1C68253964F00022D4C7 /* Semicolons.swift in Sources */,
 				0BBE1C7C253CCD8C0022D4C7 /* AssertionsAndPreconditions.swift in Sources */,
 				0BBE1C70253965D60022D4C7 /* NumericTypeConversion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBE1C7D253DD89D0022D4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBE1C8C253DD9ED0022D4C7 /* ArithmeticOperators.swift in Sources */,
+				0BBE1C8A253DD9640022D4C7 /* AssignmentOperator.swift in Sources */,
+				0BBE1C96253DDAEC0022D4C7 /* NilCoalecsingOperator.swift in Sources */,
+				0BBE1C98253DDB090022D4C7 /* RangeOperators.swift in Sources */,
+				0BBE1C90253DDA5C0022D4C7 /* CompoundAssignmentOperators.swift in Sources */,
+				0BBE1C92253DDA830022D4C7 /* ComparisonOperators.swift in Sources */,
+				0BBE1C94253DDAC80022D4C7 /* TernaryConditionalOperator.swift in Sources */,
+				0BBE1C9A253DDB670022D4C7 /* LogicalOperators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +439,42 @@
 			};
 			name = Release;
 		};
+		0BBE1C86253DD89D0022D4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/BasicOperators/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.BasicOperators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BBE1C87253DD89D0022D4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/BasicOperators/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.BasicOperators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -370,6 +492,15 @@
 			buildConfigurations = (
 				0BBE1C5F253872DF0022D4C7 /* Debug */,
 				0BBE1C60253872DF0022D4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BBE1C88253DD89D0022D4C7 /* Build configuration list for PBXNativeTarget "BasicOperators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBE1C86253DD89D0022D4C7 /* Debug */,
+				0BBE1C87253DD89D0022D4C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
