@@ -13,6 +13,12 @@
 		0B1E1A6A2609EBF80049D30A /* ClosuresAreReferenceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A692609EBF80049D30A /* ClosuresAreReferenceTypes.swift */; };
 		0B1E1A6C2609EC370049D30A /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A6B2609EC370049D30A /* EscapingClosures.swift */; };
 		0B1E1A6E2609EC580049D30A /* Autoclosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A6D2609EC580049D30A /* Autoclosures.swift */; };
+		0B1E1A7C26134B830049D30A /* EnumerationSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A7B26134B830049D30A /* EnumerationSyntax.swift */; };
+		0B1E1A7E26134BD20049D30A /* MatchingEnumerationValuesWithASwitchStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A7D26134BD20049D30A /* MatchingEnumerationValuesWithASwitchStatement.swift */; };
+		0B1E1A8026134C400049D30A /* IteratingOverEnumerationCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A7F26134C400049D30A /* IteratingOverEnumerationCases.swift */; };
+		0B1E1A8226134C970049D30A /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A8126134C970049D30A /* AssociatedValues.swift */; };
+		0B1E1A8426134CAD0049D30A /* RawValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A8326134CAD0049D30A /* RawValues.swift */; };
+		0B1E1A8626134CC70049D30A /* RecursiveEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A8526134CC70049D30A /* RecursiveEnumeration.swift */; };
 		0B64A9B125572F7600F80637 /* ConcatenatingStringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */; };
 		0B64A9B32557302E00F80637 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B22557302E00F80637 /* StringInterpolation.swift */; };
 		0B64A9B52557304400F80637 /* Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B42557304400F80637 /* Unicode.swift */; };
@@ -72,6 +78,14 @@
 		0B1E1A692609EBF80049D30A /* ClosuresAreReferenceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresAreReferenceTypes.swift; sourceTree = "<group>"; };
 		0B1E1A6B2609EC370049D30A /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
 		0B1E1A6D2609EC580049D30A /* Autoclosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autoclosures.swift; sourceTree = "<group>"; };
+		0B1E1A7326134A730049D30A /* Enumeration.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Enumeration.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1E1A7726134A730049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E1A7B26134B830049D30A /* EnumerationSyntax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationSyntax.swift; sourceTree = "<group>"; };
+		0B1E1A7D26134BD20049D30A /* MatchingEnumerationValuesWithASwitchStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingEnumerationValuesWithASwitchStatement.swift; sourceTree = "<group>"; };
+		0B1E1A7F26134C400049D30A /* IteratingOverEnumerationCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratingOverEnumerationCases.swift; sourceTree = "<group>"; };
+		0B1E1A8126134C970049D30A /* AssociatedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedValues.swift; sourceTree = "<group>"; };
+		0B1E1A8326134CAD0049D30A /* RawValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawValues.swift; sourceTree = "<group>"; };
+		0B1E1A8526134CC70049D30A /* RecursiveEnumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveEnumeration.swift; sourceTree = "<group>"; };
 		0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingStringsAndCharacters.swift; sourceTree = "<group>"; };
 		0B64A9B22557302E00F80637 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		0B64A9B42557304400F80637 /* Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicode.swift; sourceTree = "<group>"; };
@@ -143,6 +157,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B1E1A7026134A730049D30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0BAAB0E225EFF04400D0CCE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +223,20 @@
 			path = Closures;
 			sourceTree = "<group>";
 		};
+		0B1E1A7426134A730049D30A /* Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E1A7B26134B830049D30A /* EnumerationSyntax.swift */,
+				0B1E1A7D26134BD20049D30A /* MatchingEnumerationValuesWithASwitchStatement.swift */,
+				0B1E1A7F26134C400049D30A /* IteratingOverEnumerationCases.swift */,
+				0B1E1A8126134C970049D30A /* AssociatedValues.swift */,
+				0B1E1A8326134CAD0049D30A /* RawValues.swift */,
+				0B1E1A8526134CC70049D30A /* RecursiveEnumeration.swift */,
+				0B1E1A7726134A730049D30A /* Info.plist */,
+			);
+			path = Enumeration;
+			sourceTree = "<group>";
+		};
 		0BAAB0E625EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +283,7 @@
 				0BAAB0E525EFF04400D0CCE1 /* ControlFlow.xctest */,
 				0BAAB0FD25F0F52400D0CCE1 /* Functions.xctest */,
 				0B1E1A5B2609EA670049D30A /* Closures.xctest */,
+				0B1E1A7326134A730049D30A /* Enumeration.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,6 +306,7 @@
 				0BAAB0E625EFF04400D0CCE1 /* ControlFlow */,
 				0BAAB0FE25F0F52400D0CCE1 /* Functions */,
 				0B1E1A5C2609EA670049D30A /* Closures */,
+				0B1E1A7426134A730049D30A /* Enumeration */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -361,6 +398,23 @@
 			name = Closures;
 			productName = Closures;
 			productReference = 0B1E1A5B2609EA670049D30A /* Closures.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B1E1A7226134A730049D30A /* Enumeration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1E1A7826134A730049D30A /* Build configuration list for PBXNativeTarget "Enumeration" */;
+			buildPhases = (
+				0B1E1A6F26134A730049D30A /* Sources */,
+				0B1E1A7026134A730049D30A /* Frameworks */,
+				0B1E1A7126134A730049D30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enumeration;
+			productName = Enumeration;
+			productReference = 0B1E1A7326134A730049D30A /* Enumeration.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		0BAAB0E425EFF04400D0CCE1 /* ControlFlow */ = {
@@ -478,6 +532,9 @@
 					0B1E1A5A2609EA670049D30A = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					0B1E1A7226134A730049D30A = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					0BAAB0E425EFF04400D0CCE1 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -521,12 +578,20 @@
 				0BAAB0E425EFF04400D0CCE1 /* ControlFlow */,
 				0BAAB0FC25F0F52400D0CCE1 /* Functions */,
 				0B1E1A5A2609EA670049D30A /* Closures */,
+				0B1E1A7226134A730049D30A /* Enumeration */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0B1E1A592609EA670049D30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1A7126134A730049D30A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -588,6 +653,19 @@
 				0B1E1A6E2609EC580049D30A /* Autoclosures.swift in Sources */,
 				0B1E1A642609EB1D0049D30A /* ClosureExpressions.swift in Sources */,
 				0B1E1A6A2609EBF80049D30A /* ClosuresAreReferenceTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1A6F26134A730049D30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1E1A8426134CAD0049D30A /* RawValues.swift in Sources */,
+				0B1E1A7C26134B830049D30A /* EnumerationSyntax.swift in Sources */,
+				0B1E1A8626134CC70049D30A /* RecursiveEnumeration.swift in Sources */,
+				0B1E1A8226134C970049D30A /* AssociatedValues.swift in Sources */,
+				0B1E1A7E26134BD20049D30A /* MatchingEnumerationValuesWithASwitchStatement.swift in Sources */,
+				0B1E1A8026134C400049D30A /* IteratingOverEnumerationCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +792,42 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Closures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B1E1A7926134A730049D30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/Enumeration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Enumeration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1E1A7A26134A730049D30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/Enumeration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Enumeration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1073,6 +1187,15 @@
 			buildConfigurations = (
 				0B1E1A602609EA670049D30A /* Debug */,
 				0B1E1A612609EA670049D30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1E1A7826134A730049D30A /* Build configuration list for PBXNativeTarget "Enumeration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1E1A7926134A730049D30A /* Debug */,
+				0B1E1A7A26134A730049D30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
