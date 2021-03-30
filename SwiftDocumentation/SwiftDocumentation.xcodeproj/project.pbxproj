@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1E1A642609EB1D0049D30A /* ClosureExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A632609EB1D0049D30A /* ClosureExpressions.swift */; };
+		0B1E1A662609EBA30049D30A /* TrailingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A652609EBA30049D30A /* TrailingClosures.swift */; };
+		0B1E1A682609EBD60049D30A /* CapturingValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A672609EBD60049D30A /* CapturingValues.swift */; };
+		0B1E1A6A2609EBF80049D30A /* ClosuresAreReferenceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A692609EBF80049D30A /* ClosuresAreReferenceTypes.swift */; };
+		0B1E1A6C2609EC370049D30A /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A6B2609EC370049D30A /* EscapingClosures.swift */; };
+		0B1E1A6E2609EC580049D30A /* Autoclosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1A6D2609EC580049D30A /* Autoclosures.swift */; };
 		0B64A9B125572F7600F80637 /* ConcatenatingStringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */; };
 		0B64A9B32557302E00F80637 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B22557302E00F80637 /* StringInterpolation.swift */; };
 		0B64A9B52557304400F80637 /* Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B42557304400F80637 /* Unicode.swift */; };
@@ -58,6 +64,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B1E1A5B2609EA670049D30A /* Closures.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Closures.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1E1A5F2609EA670049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E1A632609EB1D0049D30A /* ClosureExpressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureExpressions.swift; sourceTree = "<group>"; };
+		0B1E1A652609EBA30049D30A /* TrailingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingClosures.swift; sourceTree = "<group>"; };
+		0B1E1A672609EBD60049D30A /* CapturingValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturingValues.swift; sourceTree = "<group>"; };
+		0B1E1A692609EBF80049D30A /* ClosuresAreReferenceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresAreReferenceTypes.swift; sourceTree = "<group>"; };
+		0B1E1A6B2609EC370049D30A /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
+		0B1E1A6D2609EC580049D30A /* Autoclosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autoclosures.swift; sourceTree = "<group>"; };
 		0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingStringsAndCharacters.swift; sourceTree = "<group>"; };
 		0B64A9B22557302E00F80637 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		0B64A9B42557304400F80637 /* Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicode.swift; sourceTree = "<group>"; };
@@ -122,6 +136,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B1E1A582609EA670049D30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0BAAB0E225EFF04400D0CCE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +188,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1E1A5C2609EA670049D30A /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E1A632609EB1D0049D30A /* ClosureExpressions.swift */,
+				0B1E1A652609EBA30049D30A /* TrailingClosures.swift */,
+				0B1E1A672609EBD60049D30A /* CapturingValues.swift */,
+				0B1E1A692609EBF80049D30A /* ClosuresAreReferenceTypes.swift */,
+				0B1E1A6B2609EC370049D30A /* EscapingClosures.swift */,
+				0B1E1A6D2609EC580049D30A /* Autoclosures.swift */,
+				0B1E1A5F2609EA670049D30A /* Info.plist */,
+			);
+			path = Closures;
+			sourceTree = "<group>";
+		};
 		0BAAB0E625EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +247,7 @@
 				0BF3DD7D2598FBF5001844DA /* CollectionTypes.xctest */,
 				0BAAB0E525EFF04400D0CCE1 /* ControlFlow.xctest */,
 				0BAAB0FD25F0F52400D0CCE1 /* Functions.xctest */,
+				0B1E1A5B2609EA670049D30A /* Closures.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,6 +269,7 @@
 				0BF3DD7E2598FBF5001844DA /* CollectionTypes */,
 				0BAAB0E625EFF04400D0CCE1 /* ControlFlow */,
 				0BAAB0FE25F0F52400D0CCE1 /* Functions */,
+				0B1E1A5C2609EA670049D30A /* Closures */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -309,6 +346,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0B1E1A5A2609EA670049D30A /* Closures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1E1A622609EA670049D30A /* Build configuration list for PBXNativeTarget "Closures" */;
+			buildPhases = (
+				0B1E1A572609EA670049D30A /* Sources */,
+				0B1E1A582609EA670049D30A /* Frameworks */,
+				0B1E1A592609EA670049D30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Closures;
+			productName = Closures;
+			productReference = 0B1E1A5B2609EA670049D30A /* Closures.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0BAAB0E425EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BAAB0EC25EFF04500D0CCE1 /* Build configuration list for PBXNativeTarget "ControlFlow" */;
@@ -421,6 +475,9 @@
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Oleksii Pidgornyi";
 				TargetAttributes = {
+					0B1E1A5A2609EA670049D30A = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					0BAAB0E425EFF04400D0CCE1 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -463,11 +520,19 @@
 				0BF3DD7C2598FBF5001844DA /* CollectionTypes */,
 				0BAAB0E425EFF04400D0CCE1 /* ControlFlow */,
 				0BAAB0FC25F0F52400D0CCE1 /* Functions */,
+				0B1E1A5A2609EA670049D30A /* Closures */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0B1E1A592609EA670049D30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0BAAB0E325EFF04400D0CCE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,6 +578,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0B1E1A572609EA670049D30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1E1A662609EBA30049D30A /* TrailingClosures.swift in Sources */,
+				0B1E1A6C2609EC370049D30A /* EscapingClosures.swift in Sources */,
+				0B1E1A682609EBD60049D30A /* CapturingValues.swift in Sources */,
+				0B1E1A6E2609EC580049D30A /* Autoclosures.swift in Sources */,
+				0B1E1A642609EB1D0049D30A /* ClosureExpressions.swift in Sources */,
+				0B1E1A6A2609EBF80049D30A /* ClosuresAreReferenceTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0BAAB0E125EFF04400D0CCE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,6 +684,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0B1E1A602609EA670049D30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/Closures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Closures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1E1A612609EA670049D30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/Closures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Closures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0BAAB0EA25EFF04500D0CCE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -954,6 +1068,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B1E1A622609EA670049D30A /* Build configuration list for PBXNativeTarget "Closures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1E1A602609EA670049D30A /* Debug */,
+				0B1E1A612609EA670049D30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0BAAB0EC25EFF04500D0CCE1 /* Build configuration list for PBXNativeTarget "ControlFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
