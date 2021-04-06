@@ -46,6 +46,13 @@
 		0B1E1B14261C8B3A0049D30A /* Setting_A_Default_Property_Value_With_A_Closure_Or_Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1AFF261779FE0049D30A /* Setting_A_Default_Property_Value_With_A_Closure_Or_Function.swift */; };
 		0B1E1B16261C977E0049D30A /* HowDeinitializationWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B15261C977E0049D30A /* HowDeinitializationWorks.swift */; };
 		0B1E1B18261C988A0049D30A /* DeinitializersInAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B17261C988A0049D30A /* DeinitializersInAction.swift */; };
+		0B1E1B26261C9C540049D30A /* OptinalChainingAsAnAlternativeToForcedUnwrapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B25261C9C540049D30A /* OptinalChainingAsAnAlternativeToForcedUnwrapping.swift */; };
+		0B1E1B28261C9DB60049D30A /* DefiningModelClassesForOptinalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B27261C9DB60049D30A /* DefiningModelClassesForOptinalChaining.swift */; };
+		0B1E1B2A261C9E7D0049D30A /* AccessingPropertiesThroughOptinalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B29261C9E7D0049D30A /* AccessingPropertiesThroughOptinalChaining.swift */; };
+		0B1E1B2C261C9F150049D30A /* CallingMethodsThroughOptinalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B2B261C9F150049D30A /* CallingMethodsThroughOptinalChaining.swift */; };
+		0B1E1B2E261C9F5B0049D30A /* AccessingSubscriptsThroughOptinalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B2D261C9F5B0049D30A /* AccessingSubscriptsThroughOptinalChaining.swift */; };
+		0B1E1B30261CA0070049D30A /* LinkingMultipleLevelsOfChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B2F261CA0070049D30A /* LinkingMultipleLevelsOfChaining.swift */; };
+		0B1E1B32261CA0380049D30A /* ChainingOnMethodsWithOptinalReturnValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B31261CA0380049D30A /* ChainingOnMethodsWithOptinalReturnValues.swift */; };
 		0B64A9B125572F7600F80637 /* ConcatenatingStringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */; };
 		0B64A9B32557302E00F80637 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B22557302E00F80637 /* StringInterpolation.swift */; };
 		0B64A9B52557304400F80637 /* Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B42557304400F80637 /* Unicode.swift */; };
@@ -154,6 +161,15 @@
 		0B1E1B09261C89D50049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B1E1B15261C977E0049D30A /* HowDeinitializationWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowDeinitializationWorks.swift; sourceTree = "<group>"; };
 		0B1E1B17261C988A0049D30A /* DeinitializersInAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeinitializersInAction.swift; sourceTree = "<group>"; };
+		0B1E1B1D261C9B470049D30A /* OptinalChaining.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptinalChaining.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1E1B21261C9B470049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E1B25261C9C540049D30A /* OptinalChainingAsAnAlternativeToForcedUnwrapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptinalChainingAsAnAlternativeToForcedUnwrapping.swift; sourceTree = "<group>"; };
+		0B1E1B27261C9DB60049D30A /* DefiningModelClassesForOptinalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefiningModelClassesForOptinalChaining.swift; sourceTree = "<group>"; };
+		0B1E1B29261C9E7D0049D30A /* AccessingPropertiesThroughOptinalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessingPropertiesThroughOptinalChaining.swift; sourceTree = "<group>"; };
+		0B1E1B2B261C9F150049D30A /* CallingMethodsThroughOptinalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingMethodsThroughOptinalChaining.swift; sourceTree = "<group>"; };
+		0B1E1B2D261C9F5B0049D30A /* AccessingSubscriptsThroughOptinalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessingSubscriptsThroughOptinalChaining.swift; sourceTree = "<group>"; };
+		0B1E1B2F261CA0070049D30A /* LinkingMultipleLevelsOfChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkingMultipleLevelsOfChaining.swift; sourceTree = "<group>"; };
+		0B1E1B31261CA0380049D30A /* ChainingOnMethodsWithOptinalReturnValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainingOnMethodsWithOptinalReturnValues.swift; sourceTree = "<group>"; };
 		0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingStringsAndCharacters.swift; sourceTree = "<group>"; };
 		0B64A9B22557302E00F80637 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		0B64A9B42557304400F80637 /* Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicode.swift; sourceTree = "<group>"; };
@@ -275,6 +291,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1B02261C89D50049D30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1B1A261C9B470049D30A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,6 +460,21 @@
 			path = Initialization;
 			sourceTree = "<group>";
 		};
+		0B1E1B1E261C9B470049D30A /* OptinalChaining */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E1B25261C9C540049D30A /* OptinalChainingAsAnAlternativeToForcedUnwrapping.swift */,
+				0B1E1B27261C9DB60049D30A /* DefiningModelClassesForOptinalChaining.swift */,
+				0B1E1B29261C9E7D0049D30A /* AccessingPropertiesThroughOptinalChaining.swift */,
+				0B1E1B2B261C9F150049D30A /* CallingMethodsThroughOptinalChaining.swift */,
+				0B1E1B2D261C9F5B0049D30A /* AccessingSubscriptsThroughOptinalChaining.swift */,
+				0B1E1B2F261CA0070049D30A /* LinkingMultipleLevelsOfChaining.swift */,
+				0B1E1B31261CA0380049D30A /* ChainingOnMethodsWithOptinalReturnValues.swift */,
+				0B1E1B21261C9B470049D30A /* Info.plist */,
+			);
+			path = OptinalChaining;
+			sourceTree = "<group>";
+		};
 		0BAAB0E625EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +529,7 @@
 				0B1E1AD52617454B0049D30A /* Inheritance.xctest */,
 				0B1E1AE9261775700049D30A /* Deinitialization.xctest */,
 				0B1E1B05261C89D50049D30A /* Initialization.xctest */,
+				0B1E1B1D261C9B470049D30A /* OptinalChaining.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -521,6 +560,7 @@
 				0B1E1AD62617454B0049D30A /* Inheritance */,
 				0B1E1B06261C89D50049D30A /* Initialization */,
 				0B1E1AEA261775700049D30A /* Deinitialization */,
+				0B1E1B1E261C9B470049D30A /* OptinalChaining */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -750,6 +790,23 @@
 			productReference = 0B1E1B05261C89D50049D30A /* Initialization.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0B1E1B1C261C9B470049D30A /* OptinalChaining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1E1B22261C9B470049D30A /* Build configuration list for PBXNativeTarget "OptinalChaining" */;
+			buildPhases = (
+				0B1E1B19261C9B470049D30A /* Sources */,
+				0B1E1B1A261C9B470049D30A /* Frameworks */,
+				0B1E1B1B261C9B470049D30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptinalChaining;
+			productName = OptinalChaining;
+			productReference = 0B1E1B1D261C9B470049D30A /* OptinalChaining.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0BAAB0E425EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BAAB0EC25EFF04500D0CCE1 /* Build configuration list for PBXNativeTarget "ControlFlow" */;
@@ -894,6 +951,10 @@
 					0B1E1B04261C89D50049D30A = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					0B1E1B1C261C9B470049D30A = {
+						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
+					};
 					0BAAB0E425EFF04400D0CCE1 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -945,6 +1006,7 @@
 				0B1E1AD42617454B0049D30A /* Inheritance */,
 				0B1E1B04261C89D50049D30A /* Initialization */,
 				0B1E1AE8261775700049D30A /* Deinitialization */,
+				0B1E1B1C261C9B470049D30A /* OptinalChaining */,
 			);
 		};
 /* End PBXProject section */
@@ -1007,6 +1069,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1B03261C89D50049D30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1B1B261C9B470049D30A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1157,6 +1226,20 @@
 				0B1E1B0D261C8B1D0049D30A /* SettingInitialValuesForStoredProperties.swift in Sources */,
 				0B1E1B14261C8B3A0049D30A /* Setting_A_Default_Property_Value_With_A_Closure_Or_Function.swift in Sources */,
 				0B1E1B11261C8B2F0049D30A /* ClassInheritanceAndInitialization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1B19261C9B470049D30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1E1B2C261C9F150049D30A /* CallingMethodsThroughOptinalChaining.swift in Sources */,
+				0B1E1B2E261C9F5B0049D30A /* AccessingSubscriptsThroughOptinalChaining.swift in Sources */,
+				0B1E1B26261C9C540049D30A /* OptinalChainingAsAnAlternativeToForcedUnwrapping.swift in Sources */,
+				0B1E1B30261CA0070049D30A /* LinkingMultipleLevelsOfChaining.swift in Sources */,
+				0B1E1B28261C9DB60049D30A /* DefiningModelClassesForOptinalChaining.swift in Sources */,
+				0B1E1B2A261C9E7D0049D30A /* AccessingPropertiesThroughOptinalChaining.swift in Sources */,
+				0B1E1B32261CA0380049D30A /* ChainingOnMethodsWithOptinalReturnValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1592,6 +1675,45 @@
 			};
 			name = Release;
 		};
+		0B1E1B23261C9B470049D30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/OptinalChaining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.OptinalChaining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1E1B24261C9B470049D30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/OptinalChaining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.OptinalChaining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0BAAB0EA25EFF04500D0CCE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2017,6 +2139,15 @@
 			buildConfigurations = (
 				0B1E1B0B261C89D60049D30A /* Debug */,
 				0B1E1B0C261C89D60049D30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1E1B22261C9B470049D30A /* Build configuration list for PBXNativeTarget "OptinalChaining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1E1B23261C9B470049D30A /* Debug */,
+				0B1E1B24261C9B470049D30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
