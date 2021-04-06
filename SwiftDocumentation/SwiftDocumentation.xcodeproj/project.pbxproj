@@ -44,6 +44,8 @@
 		0B1E1B12261C8B340049D30A /* Failable_Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1AFB261778F30049D30A /* Failable_Initializers.swift */; };
 		0B1E1B13261C8B370049D30A /* Required_Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1AFD261779700049D30A /* Required_Initializers.swift */; };
 		0B1E1B14261C8B3A0049D30A /* Setting_A_Default_Property_Value_With_A_Closure_Or_Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1AFF261779FE0049D30A /* Setting_A_Default_Property_Value_With_A_Closure_Or_Function.swift */; };
+		0B1E1B16261C977E0049D30A /* HowDeinitializationWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B15261C977E0049D30A /* HowDeinitializationWorks.swift */; };
+		0B1E1B18261C988A0049D30A /* DeinitializersInAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B17261C988A0049D30A /* DeinitializersInAction.swift */; };
 		0B64A9B125572F7600F80637 /* ConcatenatingStringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */; };
 		0B64A9B32557302E00F80637 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B22557302E00F80637 /* StringInterpolation.swift */; };
 		0B64A9B52557304400F80637 /* Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B42557304400F80637 /* Unicode.swift */; };
@@ -150,6 +152,8 @@
 		0B1E1AFF261779FE0049D30A /* Setting_A_Default_Property_Value_With_A_Closure_Or_Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_A_Default_Property_Value_With_A_Closure_Or_Function.swift; sourceTree = "<group>"; };
 		0B1E1B05261C89D50049D30A /* Initialization.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Initialization.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1E1B09261C89D50049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E1B15261C977E0049D30A /* HowDeinitializationWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowDeinitializationWorks.swift; sourceTree = "<group>"; };
+		0B1E1B17261C988A0049D30A /* DeinitializersInAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeinitializersInAction.swift; sourceTree = "<group>"; };
 		0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingStringsAndCharacters.swift; sourceTree = "<group>"; };
 		0B64A9B22557302E00F80637 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		0B64A9B42557304400F80637 /* Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicode.swift; sourceTree = "<group>"; };
@@ -410,6 +414,8 @@
 		0B1E1AEA261775700049D30A /* Deinitialization */ = {
 			isa = PBXGroup;
 			children = (
+				0B1E1B15261C977E0049D30A /* HowDeinitializationWorks.swift */,
+				0B1E1B17261C988A0049D30A /* DeinitializersInAction.swift */,
 				0B1E1AED261775700049D30A /* Info.plist */,
 			);
 			path = Deinitialization;
@@ -883,6 +889,7 @@
 					};
 					0B1E1AE8261775700049D30A = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 					0B1E1B04261C89D50049D30A = {
 						CreatedOnToolsVersion = 11.7;
@@ -1133,6 +1140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1E1B18261C988A0049D30A /* DeinitializersInAction.swift in Sources */,
+				0B1E1B16261C977E0049D30A /* HowDeinitializationWorks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1511,6 +1520,7 @@
 		0B1E1AEF261775700049D30A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 478C4GE375;
 				INFOPLIST_FILE = Sources/Deinitialization/Info.plist;
@@ -1521,6 +1531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Deinitialization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1529,6 +1540,7 @@
 		0B1E1AF0261775700049D30A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 478C4GE375;
 				INFOPLIST_FILE = Sources/Deinitialization/Info.plist;
