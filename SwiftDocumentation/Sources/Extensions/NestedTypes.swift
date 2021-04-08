@@ -10,24 +10,42 @@ import XCTest
 
 class NestedTypes: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+    
 }
+
+//class NestedTypes {
+//    extension Int {
+//        enum Kind {
+//            case negative, zero, positive
+//        }
+//        var kind: Kind {
+//            switch self {
+//            case 0:
+//                return .zero
+//            case let x where x > 0:
+//                return .positive
+//            default:
+//                return .negative
+//            }
+//        }
+//    }
+//
+//
+//
+//
+//    func printIntegerKinds(_ numbers: [Int]) {
+//        for number in numbers {
+//            switch number.kind {
+//            case .negative:
+//                print("- ", terminator: "")
+//            case .zero:
+//                print("0 ", terminator: "")
+//            case .positive:
+//                print("+ ", terminator: "")
+//            }
+//        }
+//        print("")
+//    }
+//    printIntegerKinds([3, 19, -27, 0, -6, 0, 7])
+//    // Prints "+ + - 0 - 0 + "
+//}

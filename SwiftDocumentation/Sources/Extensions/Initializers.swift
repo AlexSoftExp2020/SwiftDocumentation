@@ -10,24 +10,47 @@ import XCTest
 
 class Initializers: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    
 
 }
+
+//class InitializersExtensions {
+//    struct Size {
+//        var width = 0.0, height = 0.0
+//    }
+//    struct Point {
+//        var x = 0.0, y = 0.0
+//    }
+//    struct Rect {
+//        var origin = Point()
+//        var size = Size()
+//    }
+//    
+//    
+//    
+//    
+//    let defaultRect = Rect()
+//    let memberwiseRect = Rect(origin: Point(x: 2.0, y: 2.0),
+//                              size: Size(width: 5.0, height: 5.0))
+//    
+//    
+//    
+//    
+//    
+//    extension Rect {
+//        init(center: Point, size: Size) {
+//            let originX = center.x - (size.width / 2)
+//            let originY = center.y - (size.height / 2)
+//            self.init(origin: Point(x: originX, y: originY), size: size)
+//        }
+//    }
+//    
+//    
+//    
+//    
+//    
+//    let centerRect = Rect(center: Point(x: 4.0, y: 4.0),
+//                          size: Size(width: 3.0, height: 3.0))
+//    // centerRect's origin is (2.5, 2.5) and its size is (3.0, 3.0)
+//}
+
