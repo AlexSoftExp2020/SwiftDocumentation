@@ -71,6 +71,21 @@
 		0B1E1B82261EECA90049D30A /* Methods(Extensions).swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B81261EECA90049D30A /* Methods(Extensions).swift */; };
 		0B1E1B84261EED2D0049D30A /* Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B83261EED2D0049D30A /* Subscripts.swift */; };
 		0B1E1B86261EED640049D30A /* NestedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B85261EED640049D30A /* NestedTypes.swift */; };
+		0B1E1B94261F19DE0049D30A /* ProtocolSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B93261F19DE0049D30A /* ProtocolSyntax.swift */; };
+		0B1E1B96261F20520049D30A /* PropertyRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B95261F20520049D30A /* PropertyRequirements.swift */; };
+		0B1E1B98261F206F0049D30A /* MethodRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B97261F206F0049D30A /* MethodRequirements.swift */; };
+		0B1E1B9A261F20F30049D30A /* MutatingMethodRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B99261F20F30049D30A /* MutatingMethodRequirements.swift */; };
+		0B1E1B9C261F21260049D30A /* InitializerRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B9B261F21260049D30A /* InitializerRequirements.swift */; };
+		0B1E1B9E261F21500049D30A /* ProtocolsAsTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B9D261F21500049D30A /* ProtocolsAsTypes.swift */; };
+		0B1E1BA0261F21620049D30A /* Delegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1B9F261F21620049D30A /* Delegation.swift */; };
+		0B1E1BA2261F21AB0049D30A /* AddingProtocolConformanceWithAnExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BA1261F21AB0049D30A /* AddingProtocolConformanceWithAnExtension.swift */; };
+		0B1E1BA4261F21D30049D30A /* CollectionsOfProtocolTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BA3261F21D30049D30A /* CollectionsOfProtocolTypes.swift */; };
+		0B1E1BA6261F22090049D30A /* ProtocolInheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BA5261F22090049D30A /* ProtocolInheritance.swift */; };
+		0B1E1BA8261F223D0049D30A /* ClassOnlyProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BA7261F223D0049D30A /* ClassOnlyProtocols.swift */; };
+		0B1E1BAA261F226A0049D30A /* ProtocolComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BA9261F226A0049D30A /* ProtocolComposition.swift */; };
+		0B1E1BAC261F22990049D30A /* CheckingForProtocolConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BAB261F22990049D30A /* CheckingForProtocolConformance.swift */; };
+		0B1E1BAE261F232A0049D30A /* OptinalProtocolRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BAD261F232A0049D30A /* OptinalProtocolRequirements.swift */; };
+		0B1E1BB0261F2B4B0049D30A /* ProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BAF261F2B4B0049D30A /* ProtocolExtensions.swift */; };
 		0B64A9B125572F7600F80637 /* ConcatenatingStringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */; };
 		0B64A9B32557302E00F80637 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B22557302E00F80637 /* StringInterpolation.swift */; };
 		0B64A9B52557304400F80637 /* Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B42557304400F80637 /* Unicode.swift */; };
@@ -214,6 +229,23 @@
 		0B1E1B81261EECA90049D30A /* Methods(Extensions).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Methods(Extensions).swift"; sourceTree = "<group>"; };
 		0B1E1B83261EED2D0049D30A /* Subscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscripts.swift; sourceTree = "<group>"; };
 		0B1E1B85261EED640049D30A /* NestedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTypes.swift; sourceTree = "<group>"; };
+		0B1E1B8B261F18B20049D30A /* Protocols.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Protocols.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1E1B8F261F18B20049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E1B93261F19DE0049D30A /* ProtocolSyntax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolSyntax.swift; sourceTree = "<group>"; };
+		0B1E1B95261F20520049D30A /* PropertyRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyRequirements.swift; sourceTree = "<group>"; };
+		0B1E1B97261F206F0049D30A /* MethodRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodRequirements.swift; sourceTree = "<group>"; };
+		0B1E1B99261F20F30049D30A /* MutatingMethodRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingMethodRequirements.swift; sourceTree = "<group>"; };
+		0B1E1B9B261F21260049D30A /* InitializerRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerRequirements.swift; sourceTree = "<group>"; };
+		0B1E1B9D261F21500049D30A /* ProtocolsAsTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsAsTypes.swift; sourceTree = "<group>"; };
+		0B1E1B9F261F21620049D30A /* Delegation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegation.swift; sourceTree = "<group>"; };
+		0B1E1BA1261F21AB0049D30A /* AddingProtocolConformanceWithAnExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingProtocolConformanceWithAnExtension.swift; sourceTree = "<group>"; };
+		0B1E1BA3261F21D30049D30A /* CollectionsOfProtocolTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsOfProtocolTypes.swift; sourceTree = "<group>"; };
+		0B1E1BA5261F22090049D30A /* ProtocolInheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolInheritance.swift; sourceTree = "<group>"; };
+		0B1E1BA7261F223D0049D30A /* ClassOnlyProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassOnlyProtocols.swift; sourceTree = "<group>"; };
+		0B1E1BA9261F226A0049D30A /* ProtocolComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComposition.swift; sourceTree = "<group>"; };
+		0B1E1BAB261F22990049D30A /* CheckingForProtocolConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingForProtocolConformance.swift; sourceTree = "<group>"; };
+		0B1E1BAD261F232A0049D30A /* OptinalProtocolRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptinalProtocolRequirements.swift; sourceTree = "<group>"; };
+		0B1E1BAF261F2B4B0049D30A /* ProtocolExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensions.swift; sourceTree = "<group>"; };
 		0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingStringsAndCharacters.swift; sourceTree = "<group>"; };
 		0B64A9B22557302E00F80637 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		0B64A9B42557304400F80637 /* Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicode.swift; sourceTree = "<group>"; };
@@ -370,6 +402,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1B70261EEB520049D30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1B88261F18B20049D30A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -597,6 +636,29 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		0B1E1B8C261F18B20049D30A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E1B93261F19DE0049D30A /* ProtocolSyntax.swift */,
+				0B1E1B95261F20520049D30A /* PropertyRequirements.swift */,
+				0B1E1B97261F206F0049D30A /* MethodRequirements.swift */,
+				0B1E1B99261F20F30049D30A /* MutatingMethodRequirements.swift */,
+				0B1E1B9B261F21260049D30A /* InitializerRequirements.swift */,
+				0B1E1B9D261F21500049D30A /* ProtocolsAsTypes.swift */,
+				0B1E1B9F261F21620049D30A /* Delegation.swift */,
+				0B1E1BA1261F21AB0049D30A /* AddingProtocolConformanceWithAnExtension.swift */,
+				0B1E1BA3261F21D30049D30A /* CollectionsOfProtocolTypes.swift */,
+				0B1E1BA5261F22090049D30A /* ProtocolInheritance.swift */,
+				0B1E1BA7261F223D0049D30A /* ClassOnlyProtocols.swift */,
+				0B1E1BA9261F226A0049D30A /* ProtocolComposition.swift */,
+				0B1E1BAB261F22990049D30A /* CheckingForProtocolConformance.swift */,
+				0B1E1BAD261F232A0049D30A /* OptinalProtocolRequirements.swift */,
+				0B1E1BAF261F2B4B0049D30A /* ProtocolExtensions.swift */,
+				0B1E1B8F261F18B20049D30A /* Info.plist */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		0BAAB0E625EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -656,6 +718,7 @@
 				0B1E1B4F261CC0C30049D30A /* TypeCasting.xctest */,
 				0B1E1B63261CC39E0049D30A /* NestedTypes.xctest */,
 				0B1E1B73261EEB520049D30A /* Extensions.xctest */,
+				0B1E1B8B261F18B20049D30A /* Protocols.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -691,6 +754,7 @@
 				0B1E1B50261CC0C30049D30A /* TypeCasting */,
 				0B1E1B64261CC39F0049D30A /* NestedTypes */,
 				0B1E1B74261EEB520049D30A /* Extensions */,
+				0B1E1B8C261F18B20049D30A /* Protocols */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -1005,6 +1069,23 @@
 			productReference = 0B1E1B73261EEB520049D30A /* Extensions.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0B1E1B8A261F18B20049D30A /* Protocols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1E1B90261F18B20049D30A /* Build configuration list for PBXNativeTarget "Protocols" */;
+			buildPhases = (
+				0B1E1B87261F18B20049D30A /* Sources */,
+				0B1E1B88261F18B20049D30A /* Frameworks */,
+				0B1E1B89261F18B20049D30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protocols;
+			productName = Protocols;
+			productReference = 0B1E1B8B261F18B20049D30A /* Protocols.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0BAAB0E425EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BAAB0EC25EFF04500D0CCE1 /* Build configuration list for PBXNativeTarget "ControlFlow" */;
@@ -1168,6 +1249,9 @@
 					0B1E1B72261EEB520049D30A = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					0B1E1B8A261F18B20049D30A = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					0BAAB0E425EFF04400D0CCE1 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -1224,6 +1308,7 @@
 				0B1E1B4E261CC0C30049D30A /* TypeCasting */,
 				0B1E1B62261CC39E0049D30A /* NestedTypes */,
 				0B1E1B72261EEB520049D30A /* Extensions */,
+				0B1E1B8A261F18B20049D30A /* Protocols */,
 			);
 		};
 /* End PBXProject section */
@@ -1321,6 +1406,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1B71261EEB520049D30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1B89261F18B20049D30A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1531,6 +1623,28 @@
 				0B1E1B82261EECA90049D30A /* Methods(Extensions).swift in Sources */,
 				0B1E1B7C261EEB990049D30A /* ExtensionSyntax.swift in Sources */,
 				0B1E1B80261EEC8A0049D30A /* Initializers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1B87261F18B20049D30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1E1BA8261F223D0049D30A /* ClassOnlyProtocols.swift in Sources */,
+				0B1E1BB0261F2B4B0049D30A /* ProtocolExtensions.swift in Sources */,
+				0B1E1BA4261F21D30049D30A /* CollectionsOfProtocolTypes.swift in Sources */,
+				0B1E1BA0261F21620049D30A /* Delegation.swift in Sources */,
+				0B1E1B98261F206F0049D30A /* MethodRequirements.swift in Sources */,
+				0B1E1BAC261F22990049D30A /* CheckingForProtocolConformance.swift in Sources */,
+				0B1E1B9C261F21260049D30A /* InitializerRequirements.swift in Sources */,
+				0B1E1B96261F20520049D30A /* PropertyRequirements.swift in Sources */,
+				0B1E1BAA261F226A0049D30A /* ProtocolComposition.swift in Sources */,
+				0B1E1B9E261F21500049D30A /* ProtocolsAsTypes.swift in Sources */,
+				0B1E1BAE261F232A0049D30A /* OptinalProtocolRequirements.swift in Sources */,
+				0B1E1BA6261F22090049D30A /* ProtocolInheritance.swift in Sources */,
+				0B1E1BA2261F21AB0049D30A /* AddingProtocolConformanceWithAnExtension.swift in Sources */,
+				0B1E1B9A261F20F30049D30A /* MutatingMethodRequirements.swift in Sources */,
+				0B1E1B94261F19DE0049D30A /* ProtocolSyntax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2158,6 +2272,42 @@
 			};
 			name = Release;
 		};
+		0B1E1B91261F18B20049D30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/Protocols/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Protocols;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1E1B92261F18B20049D30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/Protocols/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Protocols;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0BAAB0EA25EFF04500D0CCE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2628,6 +2778,15 @@
 			buildConfigurations = (
 				0B1E1B79261EEB520049D30A /* Debug */,
 				0B1E1B7A261EEB520049D30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1E1B90261F18B20049D30A /* Build configuration list for PBXNativeTarget "Protocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1E1B91261F18B20049D30A /* Debug */,
+				0B1E1B92261F18B20049D30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
