@@ -104,6 +104,10 @@
 		0B1E1BF426205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BF326205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift */; };
 		0B1E1BF626205DA50049D30A /* StrongReferenceCyclesForClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BF526205DA50049D30A /* StrongReferenceCyclesForClosures.swift */; };
 		0B1E1BF826205E2B0049D30A /* ResolvingStrongReferenceCyclesForClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BF726205E2B0049D30A /* ResolvingStrongReferenceCyclesForClosures.swift */; };
+		0B1E1C0626206B390049D30A /* UnderstandingConflictingAccessToMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1C0526206B390049D30A /* UnderstandingConflictingAccessToMemory.swift */; };
+		0B1E1C0826206BD50049D30A /* ConflictingAccessToInOutParamaters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1C0726206BD50049D30A /* ConflictingAccessToInOutParamaters.swift */; };
+		0B1E1C0A26206C690049D30A /* ConflictingAccessToSelfInMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1C0926206C690049D30A /* ConflictingAccessToSelfInMethods.swift */; };
+		0B1E1C0C26206C8C0049D30A /* ConflictingAccessToProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1C0B26206C8C0049D30A /* ConflictingAccessToProperties.swift */; };
 		0B64A9B125572F7600F80637 /* ConcatenatingStringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */; };
 		0B64A9B32557302E00F80637 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B22557302E00F80637 /* StringInterpolation.swift */; };
 		0B64A9B52557304400F80637 /* Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B42557304400F80637 /* Unicode.swift */; };
@@ -288,6 +292,12 @@
 		0B1E1BF326205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolvingStrongReferenceCyclesBetweenClassInstances.swift; sourceTree = "<group>"; };
 		0B1E1BF526205DA50049D30A /* StrongReferenceCyclesForClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongReferenceCyclesForClosures.swift; sourceTree = "<group>"; };
 		0B1E1BF726205E2B0049D30A /* ResolvingStrongReferenceCyclesForClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolvingStrongReferenceCyclesForClosures.swift; sourceTree = "<group>"; };
+		0B1E1BFD262062CA0049D30A /* MemorySafety.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorySafety.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1E1C01262062CA0049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E1C0526206B390049D30A /* UnderstandingConflictingAccessToMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingConflictingAccessToMemory.swift; sourceTree = "<group>"; };
+		0B1E1C0726206BD50049D30A /* ConflictingAccessToInOutParamaters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflictingAccessToInOutParamaters.swift; sourceTree = "<group>"; };
+		0B1E1C0926206C690049D30A /* ConflictingAccessToSelfInMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflictingAccessToSelfInMethods.swift; sourceTree = "<group>"; };
+		0B1E1C0B26206C8C0049D30A /* ConflictingAccessToProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflictingAccessToProperties.swift; sourceTree = "<group>"; };
 		0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingStringsAndCharacters.swift; sourceTree = "<group>"; };
 		0B64A9B22557302E00F80637 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		0B64A9B42557304400F80637 /* Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicode.swift; sourceTree = "<group>"; };
@@ -472,6 +482,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1BE426205B960049D30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BFA262062CA0049D30A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -764,6 +781,18 @@
 			path = AutomaticReferenceCounting;
 			sourceTree = "<group>";
 		};
+		0B1E1BFE262062CA0049D30A /* MemorySafety */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E1C0526206B390049D30A /* UnderstandingConflictingAccessToMemory.swift */,
+				0B1E1C0726206BD50049D30A /* ConflictingAccessToInOutParamaters.swift */,
+				0B1E1C0926206C690049D30A /* ConflictingAccessToSelfInMethods.swift */,
+				0B1E1C0B26206C8C0049D30A /* ConflictingAccessToProperties.swift */,
+				0B1E1C01262062CA0049D30A /* Info.plist */,
+			);
+			path = MemorySafety;
+			sourceTree = "<group>";
+		};
 		0BAAB0E625EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -827,6 +856,7 @@
 				0B1E1BB5261F30220049D30A /* Generics.xctest */,
 				0B1E1BD526204C350049D30A /* OpaqueTypes.xctest */,
 				0B1E1BE726205B960049D30A /* AutomaticReferenceCounting.xctest */,
+				0B1E1BFD262062CA0049D30A /* MemorySafety.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -866,6 +896,7 @@
 				0B1E1BB6261F30220049D30A /* Generics */,
 				0B1E1BD626204C350049D30A /* OpaqueTypes */,
 				0B1E1BE826205B960049D30A /* AutomaticReferenceCounting */,
+				0B1E1BFE262062CA0049D30A /* MemorySafety */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -1248,6 +1279,23 @@
 			productReference = 0B1E1BE726205B960049D30A /* AutomaticReferenceCounting.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0B1E1BFC262062CA0049D30A /* MemorySafety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1E1C02262062CA0049D30A /* Build configuration list for PBXNativeTarget "MemorySafety" */;
+			buildPhases = (
+				0B1E1BF9262062CA0049D30A /* Sources */,
+				0B1E1BFA262062CA0049D30A /* Frameworks */,
+				0B1E1BFB262062CA0049D30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemorySafety;
+			productName = MemorySafety;
+			productReference = 0B1E1BFD262062CA0049D30A /* MemorySafety.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0BAAB0E425EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BAAB0EC25EFF04500D0CCE1 /* Build configuration list for PBXNativeTarget "ControlFlow" */;
@@ -1423,6 +1471,9 @@
 					0B1E1BE626205B960049D30A = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					0B1E1BFC262062CA0049D30A = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					0BAAB0E425EFF04400D0CCE1 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -1483,6 +1534,7 @@
 				0B1E1BB4261F30220049D30A /* Generics */,
 				0B1E1BD426204C350049D30A /* OpaqueTypes */,
 				0B1E1BE626205B960049D30A /* AutomaticReferenceCounting */,
+				0B1E1BFC262062CA0049D30A /* MemorySafety */,
 			);
 		};
 /* End PBXProject section */
@@ -1608,6 +1660,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1BE526205B960049D30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BFB262062CA0049D30A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1879,6 +1938,17 @@
 				0B1E1BF026205C4E0049D30A /* ARCinAction.swift in Sources */,
 				0B1E1BF426205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift in Sources */,
 				0B1E1BF626205DA50049D30A /* StrongReferenceCyclesForClosures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BF9262062CA0049D30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1E1C0C26206C8C0049D30A /* ConflictingAccessToProperties.swift in Sources */,
+				0B1E1C0626206B390049D30A /* UnderstandingConflictingAccessToMemory.swift in Sources */,
+				0B1E1C0A26206C690049D30A /* ConflictingAccessToSelfInMethods.swift in Sources */,
+				0B1E1C0826206BD50049D30A /* ConflictingAccessToInOutParamaters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2650,6 +2720,42 @@
 			};
 			name = Release;
 		};
+		0B1E1C03262062CA0049D30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/MemorySafety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.MemorySafety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1E1C04262062CA0049D30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/MemorySafety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.MemorySafety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0BAAB0EA25EFF04500D0CCE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3156,6 +3262,15 @@
 			buildConfigurations = (
 				0B1E1BED26205B960049D30A /* Debug */,
 				0B1E1BEE26205B960049D30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1E1C02262062CA0049D30A /* Build configuration list for PBXNativeTarget "MemorySafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1E1C03262062CA0049D30A /* Debug */,
+				0B1E1C04262062CA0049D30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
