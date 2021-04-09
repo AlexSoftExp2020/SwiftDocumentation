@@ -86,6 +86,16 @@
 		0B1E1BAC261F22990049D30A /* CheckingForProtocolConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BAB261F22990049D30A /* CheckingForProtocolConformance.swift */; };
 		0B1E1BAE261F232A0049D30A /* OptinalProtocolRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BAD261F232A0049D30A /* OptinalProtocolRequirements.swift */; };
 		0B1E1BB0261F2B4B0049D30A /* ProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BAF261F2B4B0049D30A /* ProtocolExtensions.swift */; };
+		0B1E1BBE261F311F0049D30A /* TheProblemThatGenericsSolve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BBD261F311F0049D30A /* TheProblemThatGenericsSolve.swift */; };
+		0B1E1BC0261F32940049D30A /* GenericFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BBF261F32940049D30A /* GenericFunctions.swift */; };
+		0B1E1BC2261F32A70049D30A /* GenericTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BC1261F32A70049D30A /* GenericTypes.swift */; };
+		0B1E1BC4261F32C20049D30A /* ExtendingAGenericType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BC3261F32C20049D30A /* ExtendingAGenericType.swift */; };
+		0B1E1BC6261F32DA0049D30A /* TypeConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BC5261F32DA0049D30A /* TypeConstraints.swift */; };
+		0B1E1BC8261F33240049D30A /* AssociatedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BC7261F33240049D30A /* AssociatedTypes.swift */; };
+		0B1E1BCA261F33640049D30A /* GenericWhereClauses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BC9261F33640049D30A /* GenericWhereClauses.swift */; };
+		0B1E1BCC261F33F60049D30A /* ExtensionsWithAGenericWhereClause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BCB261F33F60049D30A /* ExtensionsWithAGenericWhereClause.swift */; };
+		0B1E1BCE261F34620049D30A /* AssociatedTypesWithAGenericWhereClause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BCD261F34620049D30A /* AssociatedTypesWithAGenericWhereClause.swift */; };
+		0B1E1BD0261F34800049D30A /* GenericSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BCF261F34800049D30A /* GenericSubscripts.swift */; };
 		0B64A9B125572F7600F80637 /* ConcatenatingStringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */; };
 		0B64A9B32557302E00F80637 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B22557302E00F80637 /* StringInterpolation.swift */; };
 		0B64A9B52557304400F80637 /* Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B42557304400F80637 /* Unicode.swift */; };
@@ -246,6 +256,18 @@
 		0B1E1BAB261F22990049D30A /* CheckingForProtocolConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingForProtocolConformance.swift; sourceTree = "<group>"; };
 		0B1E1BAD261F232A0049D30A /* OptinalProtocolRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptinalProtocolRequirements.swift; sourceTree = "<group>"; };
 		0B1E1BAF261F2B4B0049D30A /* ProtocolExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensions.swift; sourceTree = "<group>"; };
+		0B1E1BB5261F30220049D30A /* Generics.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Generics.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1E1BB9261F30220049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E1BBD261F311F0049D30A /* TheProblemThatGenericsSolve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheProblemThatGenericsSolve.swift; sourceTree = "<group>"; };
+		0B1E1BBF261F32940049D30A /* GenericFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFunctions.swift; sourceTree = "<group>"; };
+		0B1E1BC1261F32A70049D30A /* GenericTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTypes.swift; sourceTree = "<group>"; };
+		0B1E1BC3261F32C20049D30A /* ExtendingAGenericType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendingAGenericType.swift; sourceTree = "<group>"; };
+		0B1E1BC5261F32DA0049D30A /* TypeConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeConstraints.swift; sourceTree = "<group>"; };
+		0B1E1BC7261F33240049D30A /* AssociatedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedTypes.swift; sourceTree = "<group>"; };
+		0B1E1BC9261F33640049D30A /* GenericWhereClauses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWhereClauses.swift; sourceTree = "<group>"; };
+		0B1E1BCB261F33F60049D30A /* ExtensionsWithAGenericWhereClause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsWithAGenericWhereClause.swift; sourceTree = "<group>"; };
+		0B1E1BCD261F34620049D30A /* AssociatedTypesWithAGenericWhereClause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedTypesWithAGenericWhereClause.swift; sourceTree = "<group>"; };
+		0B1E1BCF261F34800049D30A /* GenericSubscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSubscripts.swift; sourceTree = "<group>"; };
 		0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingStringsAndCharacters.swift; sourceTree = "<group>"; };
 		0B64A9B22557302E00F80637 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		0B64A9B42557304400F80637 /* Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicode.swift; sourceTree = "<group>"; };
@@ -409,6 +431,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1B88261F18B20049D30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BB2261F30220049D30A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -659,6 +688,24 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		0B1E1BB6261F30220049D30A /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E1BBD261F311F0049D30A /* TheProblemThatGenericsSolve.swift */,
+				0B1E1BBF261F32940049D30A /* GenericFunctions.swift */,
+				0B1E1BC1261F32A70049D30A /* GenericTypes.swift */,
+				0B1E1BC3261F32C20049D30A /* ExtendingAGenericType.swift */,
+				0B1E1BC5261F32DA0049D30A /* TypeConstraints.swift */,
+				0B1E1BC7261F33240049D30A /* AssociatedTypes.swift */,
+				0B1E1BC9261F33640049D30A /* GenericWhereClauses.swift */,
+				0B1E1BCB261F33F60049D30A /* ExtensionsWithAGenericWhereClause.swift */,
+				0B1E1BCD261F34620049D30A /* AssociatedTypesWithAGenericWhereClause.swift */,
+				0B1E1BCF261F34800049D30A /* GenericSubscripts.swift */,
+				0B1E1BB9261F30220049D30A /* Info.plist */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
 		0BAAB0E625EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -719,6 +766,7 @@
 				0B1E1B63261CC39E0049D30A /* NestedTypes.xctest */,
 				0B1E1B73261EEB520049D30A /* Extensions.xctest */,
 				0B1E1B8B261F18B20049D30A /* Protocols.xctest */,
+				0B1E1BB5261F30220049D30A /* Generics.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -755,6 +803,7 @@
 				0B1E1B64261CC39F0049D30A /* NestedTypes */,
 				0B1E1B74261EEB520049D30A /* Extensions */,
 				0B1E1B8C261F18B20049D30A /* Protocols */,
+				0B1E1BB6261F30220049D30A /* Generics */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -1086,6 +1135,23 @@
 			productReference = 0B1E1B8B261F18B20049D30A /* Protocols.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0B1E1BB4261F30220049D30A /* Generics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1E1BBA261F30220049D30A /* Build configuration list for PBXNativeTarget "Generics" */;
+			buildPhases = (
+				0B1E1BB1261F30220049D30A /* Sources */,
+				0B1E1BB2261F30220049D30A /* Frameworks */,
+				0B1E1BB3261F30220049D30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Generics;
+			productName = Generics;
+			productReference = 0B1E1BB5261F30220049D30A /* Generics.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0BAAB0E425EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BAAB0EC25EFF04500D0CCE1 /* Build configuration list for PBXNativeTarget "ControlFlow" */;
@@ -1252,6 +1318,9 @@
 					0B1E1B8A261F18B20049D30A = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					0B1E1BB4261F30220049D30A = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					0BAAB0E425EFF04400D0CCE1 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -1309,6 +1378,7 @@
 				0B1E1B62261CC39E0049D30A /* NestedTypes */,
 				0B1E1B72261EEB520049D30A /* Extensions */,
 				0B1E1B8A261F18B20049D30A /* Protocols */,
+				0B1E1BB4261F30220049D30A /* Generics */,
 			);
 		};
 /* End PBXProject section */
@@ -1413,6 +1483,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1B89261F18B20049D30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BB3261F30220049D30A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1645,6 +1722,23 @@
 				0B1E1BA2261F21AB0049D30A /* AddingProtocolConformanceWithAnExtension.swift in Sources */,
 				0B1E1B9A261F20F30049D30A /* MutatingMethodRequirements.swift in Sources */,
 				0B1E1B94261F19DE0049D30A /* ProtocolSyntax.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BB1261F30220049D30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1E1BC4261F32C20049D30A /* ExtendingAGenericType.swift in Sources */,
+				0B1E1BD0261F34800049D30A /* GenericSubscripts.swift in Sources */,
+				0B1E1BCA261F33640049D30A /* GenericWhereClauses.swift in Sources */,
+				0B1E1BC2261F32A70049D30A /* GenericTypes.swift in Sources */,
+				0B1E1BBE261F311F0049D30A /* TheProblemThatGenericsSolve.swift in Sources */,
+				0B1E1BCE261F34620049D30A /* AssociatedTypesWithAGenericWhereClause.swift in Sources */,
+				0B1E1BCC261F33F60049D30A /* ExtensionsWithAGenericWhereClause.swift in Sources */,
+				0B1E1BC8261F33240049D30A /* AssociatedTypes.swift in Sources */,
+				0B1E1BC6261F32DA0049D30A /* TypeConstraints.swift in Sources */,
+				0B1E1BC0261F32940049D30A /* GenericFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2308,6 +2402,42 @@
 			};
 			name = Release;
 		};
+		0B1E1BBB261F30220049D30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/Generics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Generics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1E1BBC261F30220049D30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/Generics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.Generics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0BAAB0EA25EFF04500D0CCE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2787,6 +2917,15 @@
 			buildConfigurations = (
 				0B1E1B91261F18B20049D30A /* Debug */,
 				0B1E1B92261F18B20049D30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1E1BBA261F30220049D30A /* Build configuration list for PBXNativeTarget "Generics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1E1BBB261F30220049D30A /* Debug */,
+				0B1E1BBC261F30220049D30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
