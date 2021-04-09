@@ -99,6 +99,11 @@
 		0B1E1BDE26204CCD0049D30A /* TheProblemThatOpaqueTypesSolve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BDD26204CCD0049D30A /* TheProblemThatOpaqueTypesSolve.swift */; };
 		0B1E1BE026204D440049D30A /* ReturningAnOpaqueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BDF26204D440049D30A /* ReturningAnOpaqueType.swift */; };
 		0B1E1BE226204DFE0049D30A /* DifferencesBetweenOpaqueTypesAndProtocolTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BE126204DFE0049D30A /* DifferencesBetweenOpaqueTypesAndProtocolTypes.swift */; };
+		0B1E1BF026205C4E0049D30A /* ARCinAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BEF26205C4E0049D30A /* ARCinAction.swift */; };
+		0B1E1BF226205CDD0049D30A /* StrongReferenceCyclesBetweenClassInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BF126205CDD0049D30A /* StrongReferenceCyclesBetweenClassInstances.swift */; };
+		0B1E1BF426205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BF326205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift */; };
+		0B1E1BF626205DA50049D30A /* StrongReferenceCyclesForClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BF526205DA50049D30A /* StrongReferenceCyclesForClosures.swift */; };
+		0B1E1BF826205E2B0049D30A /* ResolvingStrongReferenceCyclesForClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E1BF726205E2B0049D30A /* ResolvingStrongReferenceCyclesForClosures.swift */; };
 		0B64A9B125572F7600F80637 /* ConcatenatingStringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */; };
 		0B64A9B32557302E00F80637 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B22557302E00F80637 /* StringInterpolation.swift */; };
 		0B64A9B52557304400F80637 /* Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64A9B42557304400F80637 /* Unicode.swift */; };
@@ -276,6 +281,13 @@
 		0B1E1BDD26204CCD0049D30A /* TheProblemThatOpaqueTypesSolve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheProblemThatOpaqueTypesSolve.swift; sourceTree = "<group>"; };
 		0B1E1BDF26204D440049D30A /* ReturningAnOpaqueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturningAnOpaqueType.swift; sourceTree = "<group>"; };
 		0B1E1BE126204DFE0049D30A /* DifferencesBetweenOpaqueTypesAndProtocolTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferencesBetweenOpaqueTypesAndProtocolTypes.swift; sourceTree = "<group>"; };
+		0B1E1BE726205B960049D30A /* AutomaticReferenceCounting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticReferenceCounting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1E1BEB26205B960049D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E1BEF26205C4E0049D30A /* ARCinAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCinAction.swift; sourceTree = "<group>"; };
+		0B1E1BF126205CDD0049D30A /* StrongReferenceCyclesBetweenClassInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongReferenceCyclesBetweenClassInstances.swift; sourceTree = "<group>"; };
+		0B1E1BF326205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolvingStrongReferenceCyclesBetweenClassInstances.swift; sourceTree = "<group>"; };
+		0B1E1BF526205DA50049D30A /* StrongReferenceCyclesForClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongReferenceCyclesForClosures.swift; sourceTree = "<group>"; };
+		0B1E1BF726205E2B0049D30A /* ResolvingStrongReferenceCyclesForClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolvingStrongReferenceCyclesForClosures.swift; sourceTree = "<group>"; };
 		0B64A9B025572F7600F80637 /* ConcatenatingStringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingStringsAndCharacters.swift; sourceTree = "<group>"; };
 		0B64A9B22557302E00F80637 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		0B64A9B42557304400F80637 /* Unicode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicode.swift; sourceTree = "<group>"; };
@@ -453,6 +465,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1BD226204C350049D30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BE426205B960049D30A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -732,6 +751,19 @@
 			path = OpaqueTypes;
 			sourceTree = "<group>";
 		};
+		0B1E1BE826205B960049D30A /* AutomaticReferenceCounting */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E1BEF26205C4E0049D30A /* ARCinAction.swift */,
+				0B1E1BF126205CDD0049D30A /* StrongReferenceCyclesBetweenClassInstances.swift */,
+				0B1E1BF326205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift */,
+				0B1E1BF526205DA50049D30A /* StrongReferenceCyclesForClosures.swift */,
+				0B1E1BF726205E2B0049D30A /* ResolvingStrongReferenceCyclesForClosures.swift */,
+				0B1E1BEB26205B960049D30A /* Info.plist */,
+			);
+			path = AutomaticReferenceCounting;
+			sourceTree = "<group>";
+		};
 		0BAAB0E625EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -794,6 +826,7 @@
 				0B1E1B8B261F18B20049D30A /* Protocols.xctest */,
 				0B1E1BB5261F30220049D30A /* Generics.xctest */,
 				0B1E1BD526204C350049D30A /* OpaqueTypes.xctest */,
+				0B1E1BE726205B960049D30A /* AutomaticReferenceCounting.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -832,6 +865,7 @@
 				0B1E1B8C261F18B20049D30A /* Protocols */,
 				0B1E1BB6261F30220049D30A /* Generics */,
 				0B1E1BD626204C350049D30A /* OpaqueTypes */,
+				0B1E1BE826205B960049D30A /* AutomaticReferenceCounting */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -1197,6 +1231,23 @@
 			productReference = 0B1E1BD526204C350049D30A /* OpaqueTypes.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0B1E1BE626205B960049D30A /* AutomaticReferenceCounting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1E1BEC26205B960049D30A /* Build configuration list for PBXNativeTarget "AutomaticReferenceCounting" */;
+			buildPhases = (
+				0B1E1BE326205B960049D30A /* Sources */,
+				0B1E1BE426205B960049D30A /* Frameworks */,
+				0B1E1BE526205B960049D30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomaticReferenceCounting;
+			productName = AutomaticReferenceCounting;
+			productReference = 0B1E1BE726205B960049D30A /* AutomaticReferenceCounting.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0BAAB0E425EFF04400D0CCE1 /* ControlFlow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BAAB0EC25EFF04500D0CCE1 /* Build configuration list for PBXNativeTarget "ControlFlow" */;
@@ -1369,6 +1420,9 @@
 					0B1E1BD426204C350049D30A = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					0B1E1BE626205B960049D30A = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					0BAAB0E425EFF04400D0CCE1 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -1428,6 +1482,7 @@
 				0B1E1B8A261F18B20049D30A /* Protocols */,
 				0B1E1BB4261F30220049D30A /* Generics */,
 				0B1E1BD426204C350049D30A /* OpaqueTypes */,
+				0B1E1BE626205B960049D30A /* AutomaticReferenceCounting */,
 			);
 		};
 /* End PBXProject section */
@@ -1546,6 +1601,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B1E1BD326204C350049D30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BE526205B960049D30A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1805,6 +1867,18 @@
 				0B1E1BE026204D440049D30A /* ReturningAnOpaqueType.swift in Sources */,
 				0B1E1BE226204DFE0049D30A /* DifferencesBetweenOpaqueTypesAndProtocolTypes.swift in Sources */,
 				0B1E1BDE26204CCD0049D30A /* TheProblemThatOpaqueTypesSolve.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E1BE326205B960049D30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1E1BF226205CDD0049D30A /* StrongReferenceCyclesBetweenClassInstances.swift in Sources */,
+				0B1E1BF826205E2B0049D30A /* ResolvingStrongReferenceCyclesForClosures.swift in Sources */,
+				0B1E1BF026205C4E0049D30A /* ARCinAction.swift in Sources */,
+				0B1E1BF426205D200049D30A /* ResolvingStrongReferenceCyclesBetweenClassInstances.swift in Sources */,
+				0B1E1BF626205DA50049D30A /* StrongReferenceCyclesForClosures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2540,6 +2614,42 @@
 			};
 			name = Release;
 		};
+		0B1E1BED26205B960049D30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/AutomaticReferenceCounting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.AutomaticReferenceCounting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1E1BEE26205B960049D30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478C4GE375;
+				INFOPLIST_FILE = Sources/AutomaticReferenceCounting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Resolution.AutomaticReferenceCounting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0BAAB0EA25EFF04500D0CCE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3037,6 +3147,15 @@
 			buildConfigurations = (
 				0B1E1BDB26204C350049D30A /* Debug */,
 				0B1E1BDC26204C350049D30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1E1BEC26205B960049D30A /* Build configuration list for PBXNativeTarget "AutomaticReferenceCounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1E1BED26205B960049D30A /* Debug */,
+				0B1E1BEE26205B960049D30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
